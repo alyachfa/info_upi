@@ -24,7 +24,7 @@ class Fakultas extends StatelessWidget {
         Container(
             decoration: BoxDecoration(border: Border.all()),
             padding: EdgeInsets.all(14),
-            child: Text("baris kedua")),
+            child: Text("FPIPS")),
       ]),
     );
   }
