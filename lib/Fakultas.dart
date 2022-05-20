@@ -12,10 +12,13 @@ class Fakultas extends StatelessWidget {
           child: Container(
             decoration: BoxDecoration(border: Border.all()),
             padding: EdgeInsets.all(14),
-            child: Text("baris 1"),
+            child: Text("FPMIPA"),
           ),
           onTap: () {
             //gunakan navigator untuk panggil RincianFakultas
+            Navigator.push(context, MaterialPageRoute(builder: (context) {
+              return RincianFakultas();
+            }));
           },
         ),
         Container(
@@ -26,3 +29,4 @@ class Fakultas extends StatelessWidget {
     );
   }
 }
+
